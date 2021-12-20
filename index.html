@@ -7,7 +7,189 @@
   <link rel="stylesheet" href="dist.css">
   <title>Document</title>
 </head>
-<body>
-  <h1 class="text-6xl text-blue-600 underline decoration-solid">Hello</h1>
+<body class="bg-slate-100">
+  <div class="bg-white mx-10" id="body-container">
+  <header class="mx-40 p-5">
+    <div class="flex justify-between">
+      <img src="./images/covLogo.png" alt="logo">
+      <div class="nav-list">
+        <ul class="flex gap-10 text-sm">
+          <li class="hover:underline">Contact</li>
+          <li class="hover:underline">Translate</li>
+          <li class="hover:underline">Careers</li>
+          <li class="hover:underline">Guides</li>
+          <li class="hover:underline">Online Service</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-5">
+      <ul class="flex gap-2">
+        <li class="p-1 pt-3 border-solid border-t-2 border-t-gray-300 hover:bg-sky-700 hover:text-white">
+          Green Vancouver
+        </li>
+        <li class="p-1 pt-3 border-solid border-t-2 border-t-gray-300 hover:bg-sky-700 hover:text-white">
+          Your government
+        </li>
+        <li class="p-1 pt-3 border-solid border-t-2 border-t-gray-300 hover:bg-sky-700 hover:text-white">
+          About Vancouver
+        </li>
+        <li class="p-1 pt-3 border-solid border-t-2 border-t-gray-300 hover:bg-sky-700 hover:text-white">
+          Parks, recreation and culture
+        </li>
+        <li class="p-1 pt-3 border-solid border-t-2 border-t-gray-300 hover:bg-sky-700 hover:text-white">
+          Home, property and development
+        </li>
+        <li class="p-1 pt-3 border-solid border-t-2 border-t-gray-300 hover:bg-sky-700 hover:text-white">
+          People and programs
+        </li>
+        <li class="p-1 pt-3 border-solid border-t-2 border-t-gray-300 hover:bg-sky-700 hover:text-white">
+          Streets and transportation
+        </li>
+        <li class="p-1 pt-3 border-solid border-t-2 border-t-gray-300 hover:bg-sky-700 hover:text-white">
+          Doing business
+        </li>
+      </ul>
+    </div>
+    <div>
+      <input class="border-2 border-sky-700 w-full my-5 p-1.5 rounded-none" type="text" placeholder="Find city information, services and more...">
+    </div>
+  </header>
+  <main>
+    <div class="bg-[url('./images/mike-benna-WHHY-iBp3aI-unsplash.jpg')] bg-cover bg-center h-auto px-48 py-16">
+      <div class=" bg-sky-700 opacity-95 p-8">
+      <div class="flex justify-center">
+        <div class="text-white h-60 w-52 py-3 border-solid border-r border-r-white hover:bg-white hover:bg-opacity-100 hover:text-sky-700 transition-all ease-in-out duration-300">
+          <h3 class="text-2xl text-center">Pay</h3>
+          <div class="py-2 pl-9">
+            <ul class="text-start text-base">
+              <li class="my-3 underline"><a href="#">Parking ticket</a></li>
+              <li class="my-3 underline"><a href="#">Property tax</a></li>
+              <li class="my-3 underline"><a href="#">Utility bill</a></li>
+            </ul>
+          </div>
+        </div><!--.pay-->
+        <div class="text-white h-60 w-52 px-5 py-3 border-solid border-r border-r-white hover:bg-white hover:bg-opacity-100 hover:text-sky-700 transition-all ease-in-out duration-300">
+          <h3 class="text-2xl text-center">Apply</h3>
+          <div class="py-2 pl-4">
+            <ul class="text-start text-base">
+              <li class="my-3 underline"><a href="#">Building or development permit</a></li>
+              <li class="my-3 underline"><a href="#">Business licence</a></li>
+              <li class="my-3 underline"><a href="#">Short-term rental business licence</a></li>
+            </ul>
+          </div>
+        </div><!--.apply-->
+        <div class="text-white h-60 w-52 px-5 py-3 border-solid border-r border-r-white hover:bg-white hover:bg-opacity-100 hover:text-sky-700 transition-all ease-in-out duration-300">
+          <h3 class="text-2xl text-center">Find</h3>
+          <div class="py-2 pl-4">
+            <ul class="text-start text-base">
+              <li class="my-3 underline"><a href="#">Waste collection schedule</a></li>
+              <li class="my-3 underline"><a href="#">Recreation programs</a></li>
+              <li class="my-3 underline"><a href="#">Road closures</a></li>
+            </ul>
+            </div>
+        </div><!--.find-->
+        <div class="text-white h-60 w-52 px-5 py-3 hover:bg-white hover:bg-opacity-100 hover:text-sky-700 transition-all ease-in-out duration-300">
+          <h3 class="text-2xl text-center">Connect</h3>
+          <div class="py-2 pl-4">
+            <ul class="text-start text-base">
+              <li class="my-3 underline"><a href="#">Report an issue</a></li>
+              <li class="my-3 underline"><a href="#">Book an inspection</a></li>
+              <li class="my-3 underline"><a href="#">Shape Your City</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        <div class="text-center mt-8 mx-auto border border-white w-1/3 p-4 text-white rounded-md hover:bg-white hover:bg-opacity-100 hover:text-sky-700 transition-all ease-in-out duration-300">
+          <button>More online services</button>
+        </div>
+      </div>
+    </div><!--.main-header-->
+
+    <div class="py-20 px-48">
+      <h2 class="text-3xl font-bold">What's new</h2>
+      <div class="grid grid-rows-2 grid-cols-4 mb-10 gap-5 mt-10">
+      <div class="col-span-2 row-span-2 bg-gray-100 border-solid border border-gray-200 hover:shadow-3xl transition-all ease-in-out duration-300 h-128">
+        <div class="bg-[url('./images/festival-of-lights-whats-new.jpeg')] bg-cover bg-center h-1/2"></div>
+        <h5 class="px-10 my-5 text-2xl">
+          <a class="underline text-sky-700" href="#">VanDusen Festival of Lights</a>
+        </h5>
+        <p class="px-10">Come out to an enchanting winter garden with themed areas, tasty treats, unique light features, and holiday music from November 26 to January 3 at VanDusen.<br/>
+        <br/>
+          Buy tickets now.</p>
+      </div>
+      <div class="bg-gray-100 border-solid border border-gray-200 hover:shadow-3xl transition-all ease-in-out duration-300">
+        <div class="bg-[url('./images/tractor-leaf-removal.jpeg')] bg-cover bg-center h-1/2"></div>
+        <h5 class="px-5 my-5 text-xl">
+          <a class="underline text-sky-700" href="#">Clearing leaves from city streets</a>
+        </h5>
+        
+      </div>
+      <div class="bg-gray-100 border-solid border border-gray-200 hover:shadow-3xl transition-all ease-in-out duration-300">
+        <div class="bg-[url('./images/fire-truck-snow-whats-new.jpeg')] bg-cover bg-center h-1/2"></div>
+        <h5 class="px-5 my-5 text-xl">
+          <a class="underline text-sky-700" href="#">Holiday fire prevention tips</a>
+        </h5>
+        
+      </div>
+      <div class="bg-gray-100 border-solid border border-gray-200 hover:shadow-3xl transition-all ease-in-out duration-300">
+        <div class="bg-[url('./images/ice-skating-home-banner.jpeg')] bg-cover bg-center h-1/2"></div>
+        <h5 class="px-5 my-5 text-xl">
+          <a class="underline text-sky-700" href="#">Winter holiday hours</a>
+        </h5>
+        
+      </div>
+      <div class="bg-gray-100 border-solid border border-gray-200 hover:shadow-3xl transition-all ease-in-out duration-300">
+        <div class="bg-[url('./images/bag-cup-bylaw-whats-new.png')] bg-cover bg-center h-1/2"></div>
+        <h5 class="px-5 my-5 text-xl">
+          <a class="underline text-sky-700" href="#">Get ready for new cup and bag by-laws</a>
+        </h5>
+        
+      </div>
+      </div>
+    </div><!--.section-1-->
+
+    <div class="h-128 w-full bg-[url('./images/jp-holecka-u9laMUW0thM-unsplash.jpg')] bg-cover bg-bottom flex justify-around py-20 px-48">
+      <div class="block w-1/2">
+        <h2 class="text-white text-3xl">Parks, recreation, and culture</h2>
+        <div class="flex flex-col gap-5 my-10 w-2/3">
+          <button class="bg-white text-sky-700 p-3 rounded-md border border-gray-200 hover:bg-sky-700 hover:text-white">
+            Parks, gardens, and beaches
+          </button>
+          <button class="bg-white text-sky-700 p-3 rounded-md border border-gray-200 hover:bg-sky-700 hover:text-white">
+            Facility and schedules
+          </button>
+          <button class="bg-white text-sky-700 p-3 rounded-md border border-gray-200 hover:bg-sky-700 hover:text-white">
+            Theatres and performance spaces
+          </button>
+          <button class="bg-white text-sky-700 p-3 rounded-md border border-gray-200 hover:bg-sky-700 hover:text-white">
+            Public art
+          </button>
+        </div>
+      </div><!--.details1-->
+      <div class="flex flex-col w-1/2 items-center justify-around">
+        <h5>
+          <a class="underline text-sky-700 text-xl" href="#">More parks, recreation, and culture</a>
+        </h5>
+        
+        <div class="bg-sky-700 h-52 w-2/3 grid items-center">
+          <h5 class="text-white mx-8">Stanley Park is a magnificent green oasis in the midst of Vancouver’s urban landscape.</h5>
+          <button class="bg-white w-3/4 m-auto p-4 rounded-md text-sky-700 border border-gray-200 hover:bg-sky-800 hover:text-white">Visit Stanly Park</button>
+        </div>
+      </div><!--.details2-->
+
+    </div><!--.section2-->
+  </main>
+  <footer>
+    <div class="bg-zinc-700 flex justify-around items-center h-24">
+      <h5 class="text-white">&copy;2021 City of Vancouver</h5>
+
+      <ul class="flex justify-center gap-10">
+        <li class="text-white underline hover:text-gray-300">Term of Use</li>
+        <li class="text-white underline hover:text-gray-300">Privacy</li>
+        <li class="text-white underline hover:text-gray-300">Website accesibility</li>
+      </ul>
+    </div>
+  </footer>
+</div><!--#/body-container-->
 </body>
 </html>
